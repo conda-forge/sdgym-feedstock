@@ -1,11 +1,11 @@
-About sdgym
-===========
+About sdgym-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sdgym-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sdv-dev/SDGym
 
 Package license: BUSL-1.1
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sdgym-feedstock/blob/main/LICENSE.txt)
 
 Summary: Benchmark tabular synthetic data generators using a variety of datasets
 
