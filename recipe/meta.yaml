@@ -1,5 +1,5 @@
 {% set name = "sdgym" %}
-{% set version = "0.9.1" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sdgym-{{ version }}.tar.gz
-  sha256: f4368c51f62d52f3d80eab6515cbc1a91c8d905d454d141aa15e7e225e4c03f0
+  sha256: 2245fdb0a5f6f769d82903e76871d1598fe92333cedcf656181ea85e5a5e6e8b
 
 build:
   entry_points:
     - sdgym=sdgym.__main__:main
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
   noarch: python
 
 requirements:
