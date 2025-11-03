@@ -32,6 +32,7 @@ requirements:
     - compress-pickle >=1.2.0
     - humanfriendly >=10.0
     - numpy >=1.22.2,<2
+    - openpyxl >=3.1.2
     - pandas >=1.4.0
     - psutil >=5.7
     - scikit-learn >=1.0.2
