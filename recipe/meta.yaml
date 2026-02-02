@@ -1,5 +1,5 @@
 {% set name = "sdgym" %}
-{% set version = "0.12.1" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sdgym-{{ version }}.tar.gz
-  sha256: 191f7bfe0f90df91bece75ea0ac9425f900a2af4886557427ca94cb7aa3ffbec
+  sha256: 0f752d78a315afb196f4e37323f611f47875a2cf07f46a67113c033106975c33
 
 build:
   entry_points:
@@ -30,10 +30,12 @@ requirements:
     - botocore >=1.31,<2
     - cloudpickle >=2.1.0
     - compress-pickle >=1.2.0
+    - google-auth >=2.0.0
+    - google-cloud-compute >=1.0.0
     - humanfriendly >=10.0
     - numpy >=1.22.2,<2
     - openpyxl >=3.1.2
-    - pandas >=1.4.0
+    - pandas >=1.4.0,<3
     - psutil >=5.7
     - scikit-learn >=1.0.2
     - scipy >=1.7.3
