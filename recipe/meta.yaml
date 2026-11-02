@@ -45,7 +45,7 @@ requirements:
     - xlsxwriter >=1.2.8
     - rdt >=1.17.0
     - sdmetrics >=0.20.1
-    - sdv >=1.21.0
+    - sdv >=1.21.0,<2.0
 
 test:
   imports:
