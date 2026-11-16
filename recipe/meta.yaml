@@ -43,9 +43,9 @@ requirements:
     - pytorch >=2.6.0
     - tqdm >=4.66.3
     - xlsxwriter >=1.2.8
-    - rdt >=1.17.0
-    - sdmetrics >=0.20.1
-    - sdv >=1.21.0,<2.0
+    - rdt >=2.0.0,<3
+    - sdmetrics >=0.32.0
+    - sdv >=2.0.0,<3
 
 test:
   imports:
